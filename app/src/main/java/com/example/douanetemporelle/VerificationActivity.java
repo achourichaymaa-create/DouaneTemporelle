@@ -90,7 +90,7 @@ public class VerificationActivity extends AppCompatActivity {
                 verdict
         );
 
-        intent.putExtra(
+        intent.putExtra( 
                 MainActivity.creerCle("7561", "NOM_VOYAGEUR"),
                 nom
         );
