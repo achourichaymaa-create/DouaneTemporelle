@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#F4F6FA">
+
+    <ImageView
+        android:id="@+id/img_passport_ca"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:src="@android:drawable/ic_menu_myplaces"
+        android:scaleType="centerInside"
+        android:background="#DCE5F2"
+        android:contentDescription="Passeport temporel"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txt_titre_verif_ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASSEPORT TEMPOREL"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:gravity="center"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/txt_nom_ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom : "
+            android:textSize="18sp"
+            android:textColor="#172B4D"
+            android:layout_below="@id/txt_titre_verif_ca"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/txt_difference_ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Âge temporel : "
+            android:textSize="18sp"
+            android:textColor="#172B4D"
+            android:layout_below="@id/txt_nom_ca"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_motif_ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motif : "
+            android:textSize="18sp"
+            android:textColor="#172B4D"
+            android:layout_below="@id/txt_difference_ca"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btn_approuver_ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Approuver le saut temporel"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="65dp"/>
+
+        <Button
+            android:id="@+id/btn_refuser_ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Refuser (Risque de paradoxe)"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

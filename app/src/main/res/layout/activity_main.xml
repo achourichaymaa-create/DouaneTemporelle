@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F4F6FA">
+
+    <TextView
+        android:id="@+id/txt_titre_ca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOUANE TEMPORELLE"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#172B4D"
+        android:gravity="center"
+        android:layout_marginBottom="28dp"/>
+
+    <EditText
+        android:id="@+id/edt_nom_ca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom du voyageur"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/edt_naissance_ca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Année de naissance"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edt_destination_ca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Année de destination"
+        android:inputType="number"/>
+
+    <Spinner
+        android:id="@+id/spn_motif_ca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_inspecter_ca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inspecter le profil"
+        android:layout_marginTop="28dp"/>
+
+</LinearLayout>
