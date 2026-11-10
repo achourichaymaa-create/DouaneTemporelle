@@ -23,3 +23,7 @@ Nidhal Jelassi
 - Information verification
 - Paradox detection
 - Final verdict
+## Student 1 yesmine toumi  Responsibilities
+- GitHub repository organization
+- MainActivity development
+- Registration form validation
